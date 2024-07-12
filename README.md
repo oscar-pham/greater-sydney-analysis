@@ -7,7 +7,6 @@ The primary objective of this assignment is to develop a "bustling" metric for e
 3. [Extended Datasets and Results Analysis](#section-3)
 4. [Rank-Based Scoring and Machine Learning](#section-4)
 5. [Bibliography](#bibliography)
-6. [Appendix](#appendix)
 
 ## 1. Dataset Imports and Database Description <a id="section-1"></a>
 
@@ -72,8 +71,8 @@ Two additional datasets were added:
 Weak positive correlation (approximately 0.07) between the "bustling" score and median income was found. 
 
 <p align="center">
-  <img src="corr.png" width="45%" />
-  <img src="res.png" width="45%" />
+  <img src="corr.PNG" width="45%" />
+  <img src="res.PNG" width="45%" />
 </p>
 <p align="center"><em>Figure 1: The linear model of “bustling” score and median income</em></p>
 
@@ -82,8 +81,8 @@ Weak positive correlation (approximately 0.07) between the "bustling" score and 
 High "bustling" scores in areas like Sydney (North), Millers Point, Haymarket, Parramatta, and Surry Hills. Heatmap results aligned with expectations.
 
 <p align="center">
-  <img src="map.png" width="45%" />
-  <img src="ex_map.png" width="45%" />
+  <img src="map.PNG" width="45%" />
+  <img src="ex_map.PNG" width="45%" />
 </p>
 <p align="center"><em>Figure 2: Heatmap of Greater Sydney illustrating "bustling" scores and extended scores.</em></p>
 
@@ -102,7 +101,7 @@ Implemented a rank-based system, normalizing and inverting ranks for each region
 Linear regression model was fitted to predict median income, showing a weak overall fit. Multicollinearity issues identified among predictor variables.
 
 <p align="center">
-  <img src="linear.png" width="60%" />
+  <img src="linear.PNG" width="60%" />
 </p>
 <p align="center"><em>Figure 3: Scatter Plot of Actual vs. Predicted Median Income</em></p>
 
